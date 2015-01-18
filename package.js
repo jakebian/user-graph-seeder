@@ -1,8 +1,8 @@
 Package.describe({
     name: 'jbian:user-graph-seeder',
     summary: 'Seeds the Meteor.users table with a graph like schema',
-    version: '0.1.0',
-    git: ''
+    version: '0.1.1',
+    git: 'https://github.com/jakebian/user-graph-seeder.git'
 });
 
 Package.onUse(function(api) {
