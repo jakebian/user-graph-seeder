@@ -12,7 +12,7 @@ meteor add jbian-user-graph-seeder
 
 ## Example using [faker.js](https://github.com/Marak/faker.js)
 
-To use faker.js with meteor, use it as an npm module using meteorhacks:npm package.
+UserSeeder requires you to specify exactly how you want the fake data to be generated. In this example we use the popular [faker.js](https://github.com/Marak/faker.js). To use faker.js with meteor, use it as an npm module using meteorhacks:npm package.
 
 ```javascript
 if(userSeeder.meteorUtil.isEmpty("users")) {
